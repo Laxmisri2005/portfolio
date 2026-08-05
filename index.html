@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Gorli Laxmi Sri">
+        <meta name="description" content="Portfolio of Gorli Laxmi Sri - Full Stack Developer, CSE(AI&ML) Student at GMRIT">
+        <meta name="theme-color" content="#4361EE">
+        <link rel="icon" href="assets/img/photo.jpg" type="image/jpeg">
+        <meta property="og:title" content="Gorli Laxmi Sri · Portfolio">
+        <meta property="og:description" content="Full Stack Developer, CSE (AI & ML) Student at GMRIT — projects, coding profiles, and contact.">
+        <meta property="og:image" content="assets/img/photo.jpg">
+        <meta property="og:type" content="website">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Gorli Laxmi Sri · Portfolio">
+        <meta name="twitter:description" content="Full Stack Developer, CSE (AI & ML) Student at GMRIT — projects, coding profiles, and contact.">
+        <meta name="twitter:image" content="assets/img/photo.jpg">
+        <title>Gorli Laxmi Sri · Portfolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <!-- NAVBAR -->
+        <nav id="navbar">
+            <div id="profile_avatar"><img src="assets/img/photo.jpg" alt="Gorli Laxmi Sri"></div>
+            <span id="name">Gorli Laxmi Sri</span>
+            <div class="menu_bar" onclick="menu_change(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <ul id="menu_list" class="menu_bar_list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#coding">Coding Profiles</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a id="download_resume" href="resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a></li>
+            </ul>
+        </nav>
+
+        <!-- HERO / ABOUT -->
+        <section id="about">
+            <!-- Left: text + socials -->
+            <div class="about_text_wrap">
+                <div class="about_name_line">
+                    <span class="about_greeting">Hi, I'm</span>
+                    <span class="about_name">Gorli Laxmi Sri</span><span class="about_name_dot">.</span>
+                </div>
+                <p id="about_role">CSE (AI & ML) &nbsp;|&nbsp; GMRIT Rajam</p>
+
+<p id="about_desc">
+    Passionate about creating modern and meaningful digital experiences.<br>
+    Focused on building impactful projects with clean design and real-world purpose.<br>
+    Always learning, exploring, and growing through technology. 🚀
+</p>
+                <!-- Social icon row -->
+                <div id="top_social">
+                    <!-- LinkedIn -->
+                    <a class="social_btn" href="https://www.linkedin.com/in/laxmisri238/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                        <svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"><path d="M1168 601.321v74.955c72.312-44.925 155.796-71.11 282.643-71.11 412.852 0 465.705 308.588 465.705 577.417v733.213L1438.991 1920v-701.261c0-117.718-42.162-140.06-120.12-140.06-74.114 0-120.12 23.423-120.12 140.06V1920l-483.604-4.204V601.32H1168Zm-687.52-.792v1318.918H0V600.53h480.48Zm-120.12 120.12H120.12v1078.678h240.24V720.65Zm687.52.792H835.267v1075.316l243.364 2.162v-580.18c0-226.427 150.51-260.18 240.24-260.18 109.55 0 240.24 45.165 240.24 260.18v580.18l237.117-2.162v-614.174c0-333.334-93.573-457.298-345.585-457.298-151.472 0-217.057 44.925-281.322 98.98l-16.696 14.173H1047.88V721.441ZM240.24 0c132.493 0 240.24 107.748 240.24 240.24 0 132.493-107.747 240.24-240.24 240.24C107.748 480.48 0 372.733 0 240.24 0 107.748 107.748 0 240.24 0Zm0 120.12c-66.186 0-120.12 53.934-120.12 120.12s53.934 120.12 120.12 120.12 120.12-53.934 120.12-120.12-53.934-120.12-120.12-120.12Z" fill-rule="evenodd"/></svg>
+                    </a>
+                    <!-- GitHub -->
+                    <a class="social_btn" href="https://github.com/Laxmisri2005" target="_blank" rel="noopener noreferrer" title="GitHub">
+                        <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10,0 C4.477,0 0,4.59 0,10.253 C0,14.782 2.862,18.624 6.833,19.981 C7.34,20.082 7.52,19.762 7.52,19.489 C7.52,19.151 7.508,18.047 7.508,16.675 C7.508,15.719 7.828,15.095 8.187,14.777 C5.96,14.523 3.62,13.656 3.62,9.718 C3.62,8.598 4.008,7.684 4.65,6.966 C4.546,6.707 4.203,5.664 4.748,4.252 C4.748,4.252 5.586,3.977 7.495,5.303 C8.294,5.076 9.15,4.962 10,4.958 C10.85,4.962 11.705,5.076 12.503,5.303 C14.414,3.977 15.254,4.252 15.254,4.252 C15.797,5.664 15.454,6.707 15.351,6.966 C15.99,7.684 16.381,8.598 16.381,9.718 C16.381,13.646 14.046,14.526 11.825,14.785 C12.111,15.041 12.37,15.493 12.46,16.156 C13.03,16.418 14.478,16.871 15.37,15.304 C15.37,15.304 15.899,14.319 16.903,14.247 C16.903,14.247 17.878,14.234 16.971,14.87 C16.971,14.87 16.316,15.185 15.861,16.37 C15.861,16.37 15.274,18.2 12.492,17.58 C12.487,18.437 12.478,19.245 12.478,19.489 C12.478,19.76 12.662,20.077 13.161,19.982 C17.135,18.627 20,14.783 20,10.253 C20,4.59 15.523,0 10,0" fill-rule="evenodd"/></svg>
+                    </a>
+                    <!-- Email -->
+                    <a class="social_btn" href="mailto:luckylaxmisri4@gmail.com" title="Email">
+                        <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M510.678,112.275c-2.308-11.626-7.463-22.265-14.662-31.054c-1.518-1.915-3.104-3.63-4.823-5.345c-12.755-12.818-30.657-20.814-50.214-20.814H71.021c-19.557,0-37.395,7.996-50.21,20.814c-1.715,1.715-3.301,3.43-4.823,5.345C8.785,90.009,3.63,100.649,1.386,112.275C0.464,116.762,0,121.399,0,126.087V385.92c0,9.968,2.114,19.55,5.884,28.203c3.497,8.26,8.653,15.734,14.926,22.001c1.59,1.586,3.169,3.044,4.892,4.494c12.286,10.175,28.145,16.32,45.319,16.32h369.958c17.18,0,33.108-6.145,45.323-16.384c1.718-1.386,3.305-2.844,4.891-4.43c6.27-6.267,11.425-13.741,14.994-22.001v-0.064c3.769-8.653,5.812-18.171,5.812-28.138V126.087C512,121.399,511.543,116.762,510.678,112.275z M46.509,101.571c6.345-6.338,14.866-10.175,24.512-10.175h369.958c9.646,0,18.242,3.837,24.512,10.175c1.122,1.129,2.179,2.387,3.112,3.637L274.696,274.203c-5.348,4.687-11.954,7.002-18.696,7.002c-6.674,0-13.276-2.315-18.695-7.002L43.472,105.136C44.33,103.886,45.387,102.7,46.509,101.571z M36.334,385.92V142.735L176.658,265.15L36.405,387.435C36.334,386.971,36.334,386.449,36.334,385.92z M440.979,420.597H71.021c-6.281,0-12.158-1.651-17.174-4.552l147.978-128.959l13.815,12.018c11.561,10.046,26.028,15.134,40.36,15.134c14.406,0,28.872-5.088,40.432-15.134l13.808-12.018l147.92,128.959C453.137,418.946,447.26,420.597,440.979,420.597z M475.666,385.92c0,0.529,0,1.051-0.068,1.515L335.346,265.221L475.666,142.8V385.92z"/></svg>
+                    </a>
+                    <!-- WhatsApp -->
+                    <a class="social_btn" href="https://wa.me/917013462209" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                    </a>
+                    <!-- YouTube -->
+<a class="social_btn" href="https://www.youtube.com/@WELCOME_INTELLIGENCE" target="_blank" rel="noopener noreferrer" title="YouTube">
+    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8.051 1.999h-.102C6.347 1.99 3.996 2 2.174 2.236A2.5 2.5 0 0 0 .03 4.39 26.552 26.552 0 0 0 0 8c0 1.18.01 2.353.03 3.61a2.5 2.5 0 0 0 2.144 2.154c1.822.236 4.173.246 5.775.237h.102c1.602.009 3.953-.001 5.775-.237a2.5 2.5 0 0 0 2.144-2.154c.02-1.257.03-2.43.03-3.61 0-1.18-.01-2.353-.03-3.61A2.5 2.5 0 0 0 13.826 2.236C12.004 2 9.653 1.99 8.051 1.999zM6.5 5.5l4 2.5-4 2.5v-5z"/>
+    </svg>
+</a>
+                </div>
+            </div>
+            <!-- Right: photo -->
+            <div class="about_image_wrap">
+                <div id="about_img_placeholder">
+                    <img src="assets/img/photo.jpg" alt="Gorli Laxmi Sri">
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <div class="section_header">
+                <h1>Projects</h1>
+                <div class="header_line"></div>
+            </div>
+            <input type="text" id="project_search" class="project_search" placeholder="Search projects…" aria-label="Search projects">
+            <p id="project_no_results" style="display:none; text-align:center; color:var(--text-secondary); margin-bottom:20px;">No projects match your search.</p>
+            <div class="projects_list">
+                <div class="project_details">
+                    <img src="assets/img/selfspace.png" alt="SelfSpace" loading="lazy" onerror="this.style.display='none'">
+                    <div class="view_project">
+                        <a href="https://github.com/Laxmisri2005/selfspace-main" target="_blank" rel="noopener noreferrer">View Project <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                    </div>
+                    <p class="project_title">SELFSPACE</p>
+                    <p class="project_description">Mental wellness platform with mood tracking, AI chat & wellness resources.</p>
+                </div>
+                <div class="project_details">
+                    <img src="assets/img/ridex.png" alt="Cab Management" loading="lazy" onerror="this.style.display='none'">
+                    <div class="view_project">
+                        <a href="https://github.com/Laxmisri2005/cab-management-system" target="_blank" rel="noopener noreferrer">View Project <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                    </div>
+                    <p class="project_title">CAB MANAGEMENT SYSTEM</p>
+                    <p class="project_description">Cab booking app with Admin, Driver & Passenger panels, fare alerts & notifications.</p>
+                </div>
+                <div class="project_details">
+                    <img src="assets/img/trustvault.png" alt="Trustvault" loading="lazy" onerror="this.style.display='none'">
+                    <div class="view_project">
+                        <a href="https://github.com/Laxmisri2005/TrustVault-main" target="_blank" rel="noopener noreferrer">View Project <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                    </div>
+                    <p class="project_title">TRUSTVAULT</p>
+                    <p class="project_description">Secure AWS IAM platform for user monitoring, access control & real-time security alerts.</p>
+                </div>
+                <div class="project_details">
+                    <img src="assets/img/leaveflow.png" alt="Leave Management" loading="lazy" onerror="this.style.display='none'">
+                    <div class="view_project">
+                        <a href="https://github.com/Laxmisri2005/leavemanagement-system-main" target="_blank" rel="noopener noreferrer">View Project <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                    </div>
+                    <p class="project_title">LEAVE MANAGEMENT SYSTEM</p>
+                    <p class="project_description">Enterprise leave system with Employee, Admin & HR roles, JWT auth & analytics dashboard.</p>
+                </div>
+                <div class="project_details">
+                    <img src="assets/img/voteawareness.png" alt="Vote Awareness" loading="lazy" onerror="this.style.display='none'">
+                    <div class="view_project">
+                        <a href="https://github.com/Laxmisri2005/voting-awareness-chatbot" target="_blank" rel="noopener noreferrer">View Project <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.803₁V₁4M₂₀ ₉V₄M₂₀ ₄H₁₅M₂₀ ₄L₁₃ ₁₁" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                    </div>
+                    <p class="project_title">VOTE AWARENESS</p>
+                    <p class="project_description">Voter awareness chatbot guiding users through the voting process.</p>
+                </div>
+                <div class="project_details">
+                    <img src="assets/img/smartpay.png" alt="Fraud Detection" loading="lazy" onerror="this.style.display='none'">
+                    <div class="view_project">
+                        <a href="https://github.com/Laxmisri2005/fraud-detection" target="_blank" rel="noopener noreferrer">View Project <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                    </div>
+                    <p class="project_title">FRAUD DETECTION</p>
+                    <p class="project_description">ML-based fraud detection system using data analysis and classification models.</p>
+                </div>
+                <div class="project_details">
+                    <img src="assets/img/civicsense.png" alt="CivicSense" loading="lazy" onerror="this.style.display='none'">
+                    <div class="view_project">
+                        <a href="https://github.com/Laxmisri2005/civicsense" target="_blank" rel="noopener noreferrer">View Project <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                    </div>
+                    <p class="project_title">CIVICSENSE</p>
+                    <p class="project_description">Platform for reporting local issues with real-time tracking and community engagement.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CODING PROFILES -->
+        <section id="coding">
+            <div class="section_header">
+                <h1>Coding Profiles</h1>
+                <div class="header_line"></div>
+            </div>
+            <div class="coding_list">
+                <a class="coding_card" href="https://leetcode.com/u/G_Laxmisri/" target="_blank" rel="noopener noreferrer">
+                    <span class="coding_badge">LC</span>
+                    <h2 class="coding_platform">LeetCode</h2>
+                    <p class="coding_handle">@G_Laxmisri</p>
+                    <span class="coding_link_label">View Profile
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </span>
+                </a>
+                <a class="coding_card" href="https://www.codechef.com/users/laxmisri" target="_blank" rel="noopener noreferrer">
+                    <span class="coding_badge">CC</span>
+                    <h2 class="coding_platform">CodeChef</h2>
+                    <p class="coding_handle">@laxmisri</p>
+                    <span class="coding_link_label">View Profile
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <div class="section_header">
+                <h1>Contact</h1>
+                <div class="header_line"></div>
+            </div>
+            <form id="contact_form" action="https://formsubmit.co/ajax/luckylaxmisri4@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="New portfolio contact message">
+                <input type="hidden" name="_url" value="https://laxmisri2005.github.io/">
+                <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+                <h2 class="contact_title">Connect With Me</h2>
+                <div class="contact_details">
+                    <div>
+                        <svg class="contact_info_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/></svg>
+                        <h3>Phone</h3><p>+91 7013462209</p>
+                    </div>
+                    <div>
+                        <svg class="contact_info_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M510.678,112.275c-2.308-11.626-7.463-22.265-14.662-31.054c-1.518-1.915-3.104-3.63-4.823-5.345c-12.755-12.818-30.657-20.814-50.214-20.814H71.021c-19.557,0-37.395,7.996-50.21,20.814c-1.715,1.715-3.301,3.43-4.823,5.345C8.785,90.009,3.63,100.649,1.386,112.275C0.464,116.762,0,121.399,0,126.087V385.92c0,9.968,2.114,19.55,5.884,28.203c3.497,8.26,8.653,15.734,14.926,22.001c1.59,1.586,3.169,3.044,4.892,4.494c12.286,10.175,28.145,16.32,45.319,16.32h369.958c17.18,0,33.108-6.145,45.323-16.384c1.718-1.386,3.305-2.844,4.891-4.43c6.27-6.267,11.425-13.741,14.994-22.001v-0.064c3.769-8.653,5.812-18.171,5.812-28.138V126.087C512,121.399,511.543,116.762,510.678,112.275z M46.509,101.571c6.345-6.338,14.866-10.175,24.512-10.175h369.958c9.646,0,18.242,3.837,24.512,10.175c1.122,1.129,2.179,2.387,3.112,3.637L274.696,274.203c-5.348,4.687-11.954,7.002-18.696,7.002c-6.674,0-13.276-2.315-18.695-7.002L43.472,105.136C44.33,103.886,45.387,102.7,46.509,101.571z M36.334,385.92V142.735L176.658,265.15L36.405,387.435C36.334,386.971,36.334,386.449,36.334,385.92z M440.979,420.597H71.021c-6.281,0-12.158-1.651-17.174-4.552l147.978-128.959l13.815,12.018c11.561,10.046,26.028,15.134,40.36,15.134c14.406,0,28.872-5.088,40.432-15.134l13.808-12.018l147.92,128.959C453.137,418.946,447.26,420.597,440.979,420.597z M475.666,385.92c0,0.529,0,1.051-0.068,1.515L335.346,265.221L475.666,142.8V385.92z"/></svg>
+                        <h3>Email</h3><p>luckylaxmisri4@gmail.com</p>
+                    </div>
+                    <div>
+                        <svg class="contact_info_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M32,0C18.746,0,8,10.746,8,24c0,5.219,1.711,10.008,4.555,13.93c0.051,0.094,0.059,0.199,0.117,0.289l16,24C29.414,63.332,30.664,64,32,64s2.586-0.668,3.328-1.781l16-24c0.059-0.09,0.066-0.195,0.117-0.289C54.289,34.008,56,29.219,56,24C56,10.746,45.254,0,32,0z M32,32c-4.418,0-8-3.582-8-8s3.582-8,8-8s8,3.582,8,8S36.418,32,32,32z"/></svg>
+                        <h3>Location</h3><p>Srikakulam, Andhra Pradesh</p>
+                    </div>
+                </div>
+                <div id="connect_me">
+                    <div id="sender_details">
+                        <label for="contact_name">Name</label>
+                        <input type="text" id="contact_name" name="name" placeholder="Your Name" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div id="sender_message">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" cols="30" rows="10" placeholder="Your message…" required></textarea>
+                    </div>
+                </div>
+                <p id="form_status" role="status"></p>
+                <button type="submit" id="submit">Send Message</button>
+            </form>
+
+            <!-- Footer social — professional only, bottom once -->
+            <div id="footer_social">
+                <a class="footer_icon" href="https://www.linkedin.com/in/laxmisri238/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                    <svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"><path d="M1168 601.321v74.955c72.312-44.925 155.796-71.11 282.643-71.11 412.852 0 465.705 308.588 465.705 577.417v733.213L1438.991 1920v-701.261c0-117.718-42.162-140.06-120.12-140.06-74.114 0-120.12 23.423-120.12 140.06V1920l-483.604-4.204V601.32H1168Zm-687.52-.792v1318.918H0V600.53h480.48Zm-120.12 120.12H120.12v1078.678h240.24V720.65Zm687.52.792H835.267v1075.316l243.364 2.162v-580.18c0-226.427 150.51-260.18 240.24-260.18 109.55 0 240.24 45.165 240.24 260.18v580.18l237.117-2.162v-614.174c0-333.334-93.573-457.298-345.585-457.298-151.472 0-217.057 44.925-281.322 98.98l-16.696 14.173H1047.88V721.441ZM240.24 0c132.493 0 240.24 107.748 240.24 240.24 0 132.493-107.747 240.24-240.24 240.24C107.748 480.48 0 372.733 0 240.24 0 107.748 107.748 0 240.24 0Zm0 120.12c-66.186 0-120.12 53.934-120.12 120.12s53.934 120.12 120.12 120.12 120.12-53.934 120.12-120.12-53.934-120.12-120.12-120.12Z" fill-rule="evenodd"/></svg>
+                </a>
+                <a class="footer_icon" href="https://github.com/Laxmisri2005" target="_blank" rel="noopener noreferrer" title="GitHub">
+                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10,0 C4.477,0 0,4.59 0,10.253 C0,14.782 2.862,18.624 6.833,19.981 C7.34,20.082 7.52,19.762 7.52,19.489 C7.52,19.151 7.508,18.047 7.508,16.675 C7.508,15.719 7.828,15.095 8.187,14.777 C5.96,14.523 3.62,13.656 3.62,9.718 C3.62,8.598 4.008,7.684 4.65,6.966 C4.546,6.707 4.203,5.664 4.748,4.252 C4.748,4.252 5.586,3.977 7.495,5.303 C8.294,5.076 9.15,4.962 10,4.958 C10.85,4.962 11.705,5.076 12.503,5.303 C14.414,3.977 15.254,4.252 15.254,4.252 C15.797,5.664 15.454,6.707 15.351,6.966 C15.99,7.684 16.381,8.598 16.381,9.718 C16.381,13.646 14.046,14.526 11.825,14.785 C12.111,15.041 12.37,15.493 12.46,16.156 C13.03,16.418 14.478,16.871 15.37,15.304 C15.37,15.304 15.899,14.319 16.903,14.247 C16.903,14.247 17.878,14.234 16.971,14.87 C16.971,14.87 16.316,15.185 15.861,16.37 C15.861,16.37 15.274,18.2 12.492,17.58 C12.487,18.437 12.478,19.245 12.478,19.489 C12.478,19.76 12.662,20.077 13.161,19.982 C17.135,18.627 20,14.783 20,10.253 C20,4.59 15.523,0 10,0" fill-rule="evenodd"/></svg>
+                </a>
+                <a class="footer_icon" href="mailto:luckylaxmisri4@gmail.com" title="Email">
+                    <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M510.678,112.275c-2.308-11.626-7.463-22.265-14.662-31.054c-1.518-1.915-3.104-3.63-4.823-5.345c-12.755-12.818-30.657-20.814-50.214-20.814H71.021c-19.557,0-37.395,7.996-50.21,20.814c-1.715,1.715-3.301,3.43-4.823,5.345C8.785,90.009,3.63,100.649,1.386,112.275C0.464,116.762,0,121.399,0,126.087V385.92c0,9.968,2.114,19.55,5.884,28.203c3.497,8.26,8.653,15.734,14.926,22.001c1.59,1.586,3.169,3.044,4.892,4.494c12.286,10.175,28.145,16.32,45.319,16.32h369.958c17.18,0,33.108-6.145,45.323-16.384c1.718-1.386,3.305-2.844,4.891-4.43c6.27-6.267,11.425-13.741,14.994-22.001v-0.064c3.769-8.653,5.812-18.171,5.812-28.138V126.087C512,121.399,511.543,116.762,510.678,112.275z M46.509,101.571c6.345-6.338,14.866-10.175,24.512-10.175h369.958c9.646,0,18.242,3.837,24.512,10.175c1.122,1.129,2.179,2.387,3.112,3.637L274.696,274.203c-5.348,4.687-11.954,7.002-18.696,7.002c-6.674,0-13.276-2.315-18.695-7.002L43.472,105.136C44.33,103.886,45.387,102.7,46.509,101.571z M36.334,385.92V142.735L176.658,265.15L36.405,387.435C36.334,386.971,36.334,386.449,36.334,385.92z M440.979,420.597H71.021c-6.281,0-12.158-1.651-17.174-4.552l147.978-128.959l13.815,12.018c11.561,10.046,26.028,15.134,40.36,15.134c14.406,0,28.872-5.088,40.432-15.134l13.808-12.018l147.92,128.959C453.137,418.946,447.26,420.597,440.979,420.597z M475.666,385.92c0,0.529,0,1.051-0.068,1.515L335.346,265.221L475.666,142.8V385.92z"/></svg>
+                </a>
+            </div>
+            <p id="footer_copy">© 2026 Gorli Laxmi Sri &nbsp;·&nbsp; Srikakulam, Andhra Pradesh</p>
+        </section>
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
